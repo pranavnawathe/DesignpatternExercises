@@ -7,7 +7,9 @@ class csvData implements data {
 	}
 
 	public void extractData() {
-		_______________________
+
+		// blank below
+		new csvExtraction().extract();
 
 	}
 }

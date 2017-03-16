@@ -6,6 +6,8 @@ class tsvData implements data {
 	}
 
 	public void extractData() {
-		_______________________
+
+		// blank below
+		new tsvExtraction().extract();
 	}
 }

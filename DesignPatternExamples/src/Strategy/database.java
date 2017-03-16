@@ -6,6 +6,8 @@ class database implements data {
 	}
 
 	public void extractData() {
-		_______________________
+
+		// blank below
+		new databaseExtraction().extract();
 	}
 }

@@ -2,7 +2,11 @@ package Strategy;
 class databaseExtraction implements extraction {
 
 	public void extract() {
-		_______________________
+		// complete the method below
+		
+		open();
+		System.out.println("I will extract by reading rows and columns");
+		close();
 	}
 
 	public void open() {
