@@ -11,7 +11,7 @@ class tsvExtractions implements Extractions{
 	}
 
 	public void callCorrectExtraction() {
-		________________________________
+		tsvExtractor.extract();
 	}
 	
 }

@@ -11,7 +11,7 @@ class databaseExtractions implements Extractions{
 	}
 
 	public void callCorrectExtraction() {
-		________________________________
+		dbExtractor.extract();
 	}
 	
 }

@@ -12,7 +12,7 @@ class csvExtractions implements Extractions{
 	}
 	
 	public void callCorrectExtraction() {
-		________________________________
+		csvExtractor.extract();
 	}
 	
 }

@@ -22,15 +22,15 @@ public class CommandPattern {
 			Extractions extractionObj = null;
 			if (extension.equalsIgnoreCase("db"))
 				
-				extractionObj = ________________________________
+				extractionObj = new databaseExtractions(fileName);
 
 			else if (extension.equalsIgnoreCase("csv"))
 				
-				extractionObj = ________________________________
+				extractionObj = new csvExtractions(fileName);
 
 			else if (extension.equalsIgnoreCase("tsv"))
 
-				extractionObj = ________________________________
+				extractionObj = new tsvExtractions(fileName);
 				
 			else
 				System.out.println("No such file format available");
